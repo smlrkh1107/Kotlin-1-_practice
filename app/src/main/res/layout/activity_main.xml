@@ -4,34 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="left|bottom"
     tools:context=".MainActivity">
+<!--▲ 주석은 Ctrl + / 눌러랑!~~!
+    ori 엔트는 텍스트를 정렬 하는방향.
+    gravity 위치하는건데 오른쪽+아래 합체된다!-->
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="정신...차려.."
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="정신차려"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="어ㅓㅓ려워,,"
+        android:textSize="25sp"
+        android:textColor="#03A9F4"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="정신차려"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--개편하게도... android 이거 안적고 text만 쳐도 된다.
+     글자크기는 sp단위랍니다.(사용자가 크기를 키우면 커짐dp는 안돼)
+     textColor : RGB color 따라감.
+        - 각 2자리씩 00~FF(16진수) -->
+
+
+
 
 </LinearLayout>
 
